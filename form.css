@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container{
+    border-left: 1px solid red;
+    padding-left: 550px;
+    padding-top: 40px;
+}
+.end{
+    padding-left: 70px;
+}
+h1{
+    color:red;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+label{
+    color:darkred;
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;
+}
+input{
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: dodgerblue;
+    width:30%;
+    background-color: seashell;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+#sub{
+    width:10%;
+    background-color: ivory;
+}
+.top{
+    padding-left: 20px;
+}
+body{
+    background-image: url(images.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-color: burlywood;
+}
+input:hover{
+    border-color: darkred;
+}
+#sub:hover{
+    border-color: darkred;
+}
